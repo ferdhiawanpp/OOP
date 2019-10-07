@@ -26,10 +26,10 @@ class HandyPerson extends Human implements Plumber,Electrician{
 		$this -> name = $name ;
 	}
 	function changeBulb(){
-		echo " bisa mengganti bohlam ";
+		echo " bisa edit video ";
 	}
 	function unplugDrain(){
-		echo " bisa menguras ";
+		echo " bisa shoot video ";
 	}
 	function toString(){
 		return $this -> name ;
@@ -43,7 +43,7 @@ class IndustrialPlumber extends Human implements Plumber{
 		$this -> name = $name ;
 	}
 	function unplugDrain(){
-		echo " bisa menguras ";
+		echo " bisa edit video ";
 	}
 	function toString(){
 		return $this -> name ;
