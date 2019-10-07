@@ -13,17 +13,17 @@ class Ball implements Tossable {
 		return $this -> brandName;
 	}
 	function toss(){
-		echo $this -> brandName." di lempar";
+		echo $this -> brandName." disawat";
 	}
 	function bounce(){
-		echo "bola ".$this -> brandName." melambung ";
+		echo "bola ".$this -> brandName." melayang";
 	}
 }
 
 class Rock implements Tossable{
 	
 	function toss(){
-		echo "di lempar";
+		echo "disawat";
 	}
 }
 
